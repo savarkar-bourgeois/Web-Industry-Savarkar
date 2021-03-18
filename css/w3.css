@@ -67,3 +67,7 @@
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  .w3-top {
+    top: 0
+}
