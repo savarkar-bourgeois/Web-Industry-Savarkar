@@ -13,22 +13,35 @@
 
 <body>
   <div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
+    <a href="#home" class="active"><i class="fa fa-home"></i> Home</a>
+    <a href="#goal"><i class="fa fa-user"></i> Goal</a>
     <div class="dropdown">
-      <button class="dropbtn">Dropdown 
+      <button class="dropbtn"><i class="fa fa-desktop"></i> Jobs 
         <i class="fa fa-caret-down"></i>
       </button>
       <div class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
+        <a href="#">Interface Designers</a>
+        <a href="#">Front-End Web Developers</a>
+        <a href="#">Back-End Web Developers</a>
       </div>
     </div> 
-    <a href="#about">About</a>
-    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    <a href="#contact"><i class="fa fa-address-book"></i> Contact</a>
+    <a href="javascript:void(0);" style="font-size: 15px;" class="icon" onclick="myFunction()">&#9776;</a>
   </div>
+
+  <!-- Header with Video -->
+  <header>
+    <div class="w3-display-container" id="home">
+        <div class="w3-display-middle" style="white-space:nowrap;">
+            <span class="w3-center w3-padding-large w3-theme w3-xlarge w3-wide w3-animate-opacity" style="text-color: rgb(10,38,62);"> WEB DESIGN INDUSTRY </span>
+        </div>
+        <!-- The video -->
+        <video autoplay muted loop id="myVideo">
+            <source src="video/Pexels Videos 2916.mp4" type="video/mp4">
+        </video>
+    </div>
+</header>
+
   <div style="padding-left:16px">
     <h2>Responsive Topnav with Dropdown</h2>
     <p>Resize the browser window to see how it works.</p>
