@@ -67,3 +67,15 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+
+  /* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 0;
+  bottom: 0;
+  width: 100%; 
+  height: 100%;
+}
