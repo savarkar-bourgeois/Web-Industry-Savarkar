@@ -230,7 +230,7 @@
 
 .w3-dropdown-hover:hover > .w3-button:first-child,
 .w3-dropdown-click:hover > .w3-button:first-child {
-    background-color: #90b4d4;
+    background-color: #96d490;
     color: #000
 }
 
@@ -240,7 +240,7 @@
 
 .w3-button:hover {
   color: #000!important;
-  background-color: #90b4d4!important
+  background-color: #96d490!important
 }
 
 @media (max-width:992px) and (min-width:601px) {
@@ -315,4 +315,4 @@
   animation: opac 0.8s
 }
 
-.w3-theme {color:rgb(255, 255, 255) !important; background-color:rgb(25, 26, 92) !important}
+.w3-theme {color:rgb(255, 255, 255) !important; background-color:rgb(32, 70, 28) !important}
