@@ -144,7 +144,7 @@
   width: auto;
   border: none;
   display: block;
-  outline: 0
+  outline: 0;
 }
 
 .w3-bar-block.w3-center .w3-bar-item {
@@ -307,6 +307,10 @@
   font-size: 24px!important
 }
 
+.w3-xxlarge {
+  font-size: 36px!important
+}
+
 .w3-wide {
   letter-spacing: 4px
 }
@@ -327,4 +331,90 @@
 /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
 .sticky + .content {
   padding-top: 60px;
+}
+
+.w3-text-white,
+.w3-hover-text-white:hover {
+    color: #fff!important
+}
+
+.w3-text-black,
+.w3-hover-text-black:hover {
+    color: black!important
+}
+
+.w3-content,
+.w3-auto {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.w3-content {
+    max-width: 980px
+}
+
+.w3-container,
+.w3-panel {
+    padding: 0.01em 16px
+}
+
+.w3-padding-64 {
+  padding-top: 64px!important;
+  padding-bottom: 64px!important
+}
+
+.w3-container:after,
+.w3-container:before,
+.w3-panel:after,
+.w3-panel:before,
+.w3-row:after,
+.w3-row:before,
+.w3-row-padding:after,
+.w3-row-padding:before,
+.w3-cell-row:before,
+.w3-cell-row:after,
+.w3-clear:after,
+.w3-clear:before,
+.w3-bar:before,
+.w3-bar:after {
+    content: "";
+    display: table;
+    clear: both
+}
+
+.w3-row-padding,
+.w3-row-padding>.w3-half,
+.w3-row-padding>.w3-third,
+.w3-row-padding>.w3-twothird,
+.w3-row-padding>.w3-threequarter,
+.w3-row-padding>.w3-quarter,
+.w3-row-padding>.w3-col {
+    padding: 0 8px
+}
+
+.w3-padding {
+  padding: 8px 16px!important
+}
+
+.w3-bottombar {
+  border-bottom: 6px solid #ccc!important
+}
+
+.w3-hover-green:hover {
+  color: black!important;
+  background-color: #96d490!important
+}
+
+.w3-black,
+.w3-hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important
+}
+
+.w3-bottombar {
+  border-bottom: 6px solid rgb(32, 70, 28)!important;
+}
+
+.w3-border-green, .w3-hover-border-green:hover {
+  border-color: #96d490!important;
 }
