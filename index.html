@@ -21,9 +21,9 @@
         <div class="w3-dropdown-hover">
             <button class="w3-button w3-hide-small"><i class="fa fa-desktop"></i> Jobs <i class="fa fa-caret-down"></i></button>
             <div class="w3-dropdown-content w3-bar-block w3-card-4">
-                <a href="#" class="w3-bar-item w3-button"> Interface Designers</a>
-                <a href="#" class="w3-bar-item w3-button"> Front-End Web Developers</a>
-                <a href="#" class="w3-bar-item w3-button"> Back-End Web Developers</a>
+                <a href="#interface" class="w3-bar-item w3-button"> Interface Designers</a>
+                <a href="#front" class="w3-bar-item w3-button"> Front-End Web Developers</a>
+                <a href="#back" class="w3-bar-item w3-button"> Back-End Web Developers</a>
             </div>
         </div>
         <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-address-book"></i> Contact</a>
@@ -77,8 +77,49 @@
         </div>
     </div>
 
+    <!-- Jobs Page -->
+    <div>
+        <!-- Job Parallax Image -->
+        <div class="jobs w3-display-container" id="products">
+            <div class="w3-display-middle" style="white-space:nowrap;">
+                <span class="w3-center w3-padding-large w3-xxlarge w3-text-black w3-wide">PRODUCTS</span>
+            </div>
+        </div>
+
+        <!-- Content -->
+        <div class="w3-content w3-container w3-padding-64" id="interface">
+                <h3 class="w3-center">INTERFACE DESIGNERS</h3>
+          
+            <div class="w3-row">
+              <a href="javascript:void(0)" onclick="openCity(event, 'Description');">
+                <div class="w3-third tablink w3-bottombar w3-hover-green w3-padding w3-border-green">Description</div>
+              </a>
+              <a href="javascript:void(0)" onclick="openCity(event, 'Statistics');">
+                <div class="w3-third tablink w3-bottombar w3-hover-green w3-padding w3-border-green">Statistics</div>
+              </a>
+              <a href="javascript:void(0)" onclick="openCity(event, 'Related');">
+                <div class="w3-third tablink w3-bottombar w3-hover-green w3-padding w3-border-green">Related Jobs</div>
+              </a>
+            </div>
+          
+            <div id="Description" class="w3-container city" style="display:none">
+              <h2>London</h2>
+              <p>London is the capital city of England.</p>
+            </div>
+          
+            <div id="Statistics" class="w3-container city" style="display:none">
+              <h2>Paris</h2>
+              <p>Paris is the capital of France.</p> 
+            </div>
+          
+            <div id="Related" class="w3-container city" style="display:none">
+              <h2>Tokyo</h2>
+              <p>Tokyo is the capital of Japan.</p>
+            </div>
+          </div>
 
     <script src="js/nav.js"></script>
+    <script src="js/tab.js"></script>
 </body>
 
 </html>
