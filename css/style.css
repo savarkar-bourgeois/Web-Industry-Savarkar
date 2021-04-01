@@ -12,6 +12,9 @@ body {
   .navbar {
     overflow: hidden;
     background-color: rgb(17, 13, 71);
+    position: fixed;
+    top: 0;
+    width: 100%;
   }
   
   .navbar a {
@@ -79,4 +82,36 @@ body {
   bottom: 0;
   width: 100%; 
   height: 100%;
+}
+
+/* Create a Parallax Effect */
+.boat, .jobs, .snow, .dog {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* First image (Not Using) */
+.boat {
+  background-image: url('/img/boat.jpg');
+  min-height: 100%;
+}
+
+/* Second image (Gallery) */
+.jobs {
+  background-image: url("/img/jobs1.jpeg");
+  min-height: 400px;
+}
+
+/* Third Image (Products) */
+.snow {
+  background-image: url("/img/snow.jpg");
+  min-height: 400px;
+}
+
+/* Forth image (Contact) */
+.dog {
+  background-image: url("/img/dog.jpg");
+  min-height: 400px;
 }
