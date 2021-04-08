@@ -85,7 +85,7 @@ body {
 }
 
 /* Create a Parallax Effect */
-.boat, .jobs, .snow, .dog {
+.boat, .jobs, .contact, .dog {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -105,8 +105,8 @@ body {
 }
 
 /* Third Image (Products) */
-.snow {
-  background-image: url("/img/snow.jpg");
+.contact {
+  background-image: url("/img/contact.jpg");
   min-height: 400px;
 }
 
